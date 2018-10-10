@@ -103,7 +103,7 @@
                            <userName>${db.user.name}</userName>
                            <password>${db.password}</password>
                            <url>${db.url}</url>
-                           <schemaNames>${db.schema}</schemaNames>
+                           <schemaNames>socialmedia</schemaNames>
                        </database>
                      </databases>
                      <scriptArchiveDependencies>
