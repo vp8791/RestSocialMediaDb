@@ -108,8 +108,8 @@
                      </databases>
                      <scriptArchiveDependencies>
                          <scriptArchiveDependency>
-                             <groupId>com.rest.db</groupId>
-                             <artifactId>RestDb</artifactId>
+                             <groupId>com.rest.facebook.db</groupId>
+                             <artifactId>faceBookDb</artifactId>
                              <version>1.0</version>
                          </scriptArchiveDependency>
                      </scriptArchiveDependencies>
