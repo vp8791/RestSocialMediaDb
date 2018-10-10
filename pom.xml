@@ -38,7 +38,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>BatchDb</finalName>
+		<finalName>FaceBookDb</finalName>
 
 		<plugins>
 		    <!-- Eclipse project -->
