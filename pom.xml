@@ -118,10 +118,8 @@
                      <execution>
                          <phase>install</phase>
                          <goals>
-                         	<goal>clearDatabase</goal>
-                         	<!--  	
+                         	<goal>clearDatabase</goal> 	
                              <goal>updateDatabase</goal>
-                             -->
                          </goals>
                      </execution>
                  </executions>
