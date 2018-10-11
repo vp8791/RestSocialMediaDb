@@ -6,7 +6,7 @@ CREATE TABLE USER_DETAILS
 	PRIMARY KEY ("ID")
   );
 
-CREATE TABLE POST 
+CREATE TABLE USER_POSTS 
    (	
     "ID" NUMBER(20,0) NOT NULL ENABLE, 
 	"DESCRIPTION" VARCHAR2(255), 
@@ -45,15 +45,15 @@ Insert into USER_DETAILS (ID,BIRTH_DATE,NAME) values (2008,to_date('05-DEC-06','
 Insert into USER_DETAILS (ID,BIRTH_DATE,NAME) values (2009,to_date('05-DEC-01','DD-MON-RR'),'Sanjana AieReddy');
 Insert into USER_DETAILS (ID,BIRTH_DATE,NAME) values (2010,to_date('09-OCT-00','DD-MON-RR'),'Ree');
 
-Insert into POST (ID,DESCRIPTION,USER_ID) values (1001,'Hello1',2001);
-Insert into POST (ID,DESCRIPTION,USER_ID) values (1002,'Hello2',2002);
-Insert into POST (ID,DESCRIPTION,USER_ID) values (1003,'Hello3',2003);
-Insert into POST (ID,DESCRIPTION,USER_ID) values (1004,'Hello4',2004);
-Insert into POST (ID,DESCRIPTION,USER_ID) values (1005,'Hello5',2005);
-Insert into POST (ID,DESCRIPTION,USER_ID) values (1006,'Hello6',2006);
-Insert into POST (ID,DESCRIPTION,USER_ID) values (1007,'Hello7',2007);
-Insert into POST (ID,DESCRIPTION,USER_ID) values (1008,'Hello8',2008);
-Insert into POST (ID,DESCRIPTION,USER_ID) values (1009,'Hello9',2009);
+Insert into USER_POSTS (ID,DESCRIPTION,USER_ID) values (1001,'Hello1',2001);
+Insert into USER_POSTS (ID,DESCRIPTION,USER_ID) values (1002,'Hello2',2002);
+Insert into USER_POSTS (ID,DESCRIPTION,USER_ID) values (1003,'Hello3',2003);
+Insert into USER_POSTS (ID,DESCRIPTION,USER_ID) values (1004,'Hello4',2004);
+Insert into USER_POSTS (ID,DESCRIPTION,USER_ID) values (1005,'Hello5',2005);
+Insert into USER_POSTS (ID,DESCRIPTION,USER_ID) values (1006,'Hello6',2006);
+Insert into USER_POSTS (ID,DESCRIPTION,USER_ID) values (1007,'Hello7',2007);
+Insert into USER_POSTS (ID,DESCRIPTION,USER_ID) values (1008,'Hello8',2008);
+Insert into USER_POSTS (ID,DESCRIPTION,USER_ID) values (1009,'Hello9',2009);
 
 
 Insert into LOGIN_USERS (USERNAME,PASSWORD,ENABLED) values ('admin','$2a$10$hbxecwitQQ.dDT4JOFzQAulNySFwEpaFLw38jda6Td.Y/cOiRzDFu',1);
