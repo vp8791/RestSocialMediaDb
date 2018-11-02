@@ -40,14 +40,14 @@ Insert into AUTHORITIES (USERNAME,AUTHORITY) values ('admin','ROLE_ADMIN');
 INSERT INTO USER_DETAILS (ID, BIRTH_DATE, NAME) VALUES ('1', TO_DATE('1950-11-17 08:39:15', 'YYYY-MM-DD HH24:MI:SS'), 'Testing Name');
 INSERT INTO USER_DETAILS (ID, BIRTH_DATE) VALUES ('2', TO_DATE('1970-11-13 08:39:49', 'YYYY-MM-DD HH24:MI:SS'));
 
-INSERT INTO USER_POSTS (ID, DESCRIPTION, USER_ID) VALUES ('10', 'Shopped in Romania', '1')
-INSERT INTO USER_POSTS (ID, DESCRIPTION, USER_ID) VALUES ('11', '5 Atm with drawals in 3 hours', '1')
-INSERT INTO USER_POSTS (ID, DESCRIPTION, USER_ID) VALUES ('12', 'Shopped within credit Limit thrice in Last 3 months ', '1')
-INSERT INTO USER_POSTS (ID, DESCRIPTION, USER_ID) VALUES ('13', 'Shopped at Suspicious Mcc Terminal', '1')
-INSERT INTO USER_POSTS (ID, DESCRIPTION, USER_ID) VALUES ('14', 'Failed login Pin attempts', '2')
-INSERT INTO USER_POSTS (ID, DESCRIPTION, USER_ID) VALUES ('15', 'Reported disputed transactions', '2')
-INSERT INTO USER_POSTS (ID, DESCRIPTION, USER_ID) VALUES ('16', 'Used Overdraft many times', '2')
-INSERT INTO USER_POSTS (ID, DESCRIPTION, USER_ID) VALUES ('17', 'Has Police warnings about inpersonation of accont', '2')
+INSERT INTO USER_POSTS (ID, DESCRIPTION, USER_ID) VALUES ('10', 'Shopped in Romania', '1');
+INSERT INTO USER_POSTS (ID, DESCRIPTION, USER_ID) VALUES ('11', '5 Atm with drawals in 3 hours', '1');
+INSERT INTO USER_POSTS (ID, DESCRIPTION, USER_ID) VALUES ('12', 'Shopped within credit Limit thrice in Last 3 months ', '1');
+INSERT INTO USER_POSTS (ID, DESCRIPTION, USER_ID) VALUES ('13', 'Shopped at Suspicious Mcc Terminal', '1');
+INSERT INTO USER_POSTS (ID, DESCRIPTION, USER_ID) VALUES ('14', 'Failed login Pin attempts', '2');
+INSERT INTO USER_POSTS (ID, DESCRIPTION, USER_ID) VALUES ('15', 'Reported disputed transactions', '2');
+INSERT INTO USER_POSTS (ID, DESCRIPTION, USER_ID) VALUES ('16', 'Used Overdraft many times', '2');
+INSERT INTO USER_POSTS (ID, DESCRIPTION, USER_ID) VALUES ('17', 'Has Police warnings about inpersonation of accont', '2');
 
 
 
